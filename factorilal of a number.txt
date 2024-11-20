@@ -1,3 +1,4 @@
+public class FactorialFinder {
  public static  int Factorial( int n ) {
          int factorial = 1;
           if ( n == 0 ){
@@ -10,3 +11,8 @@
          }}
           return factorial ;
      }
+
+public static void main(String[] arg){
+System.out.println(Factorial(5));
+}
+}
